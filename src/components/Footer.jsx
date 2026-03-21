@@ -68,7 +68,7 @@ export default function Footer() {
 
         <div className="mt-10 flex flex-col gap-2 border-t border-black/10 pt-6 text-xs text-zinc-500 dark:border-white/10 dark:text-white/55 sm:flex-row sm:items-center sm:justify-between">
           <div>© {new Date().getFullYear()} SellPhone. All rights reserved.</div>
-          <div className="text-zinc-400 dark:text-white/45">Built for demo / portfolio use.</div>
+          <div className="text-zinc-400 dark:text-white/45">Development by codework technologies</div>
         </div>
       </div>
     </footer>
