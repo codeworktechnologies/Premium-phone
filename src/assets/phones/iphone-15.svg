@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="126" y1="88" x2="772" y2="606" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171b2c"/>
+      <stop offset="1" stop-color="#0a0d16"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(242 148) rotate(44.21) scale(265.955 331.512)">
+      <stop stop-color="#91e0ff"/>
+      <stop offset="1" stop-color="#91e0ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wallpaper" x1="319" y1="113" x2="640" y2="598" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff7f4"/>
+      <stop offset="0.28" stop-color="#ffb9ae"/>
+      <stop offset="0.61" stop-color="#ff7a98"/>
+      <stop offset="1" stop-color="#341d55"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="275" y1="104" x2="615" y2="594" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f8d9d4"/>
+      <stop offset="0.45" stop-color="#dcb8b3"/>
+      <stop offset="1" stop-color="#fff0ee"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="44" fill="url(#bg)"/>
+  <circle cx="242" cy="154" r="208" fill="url(#glow)" opacity=".75"/>
+  <circle cx="671" cy="542" r="166" fill="#3d1f56" opacity=".55"/>
+  <rect x="110" y="84" width="680" height="532" rx="40" fill="#ffffff" fill-opacity=".03" stroke="#ffffff" stroke-opacity=".08"/>
+  <ellipse cx="449" cy="594" rx="176" ry="28" fill="#000000" fill-opacity=".35"/>
+  <g transform="translate(245 90)">
+    <rect x="20" y="0" width="320" height="522" rx="48" fill="url(#frame)"/>
+    <rect x="32" y="12" width="296" height="498" rx="40" fill="#05070c"/>
+    <rect x="45" y="25" width="270" height="472" rx="34" fill="url(#wallpaper)"/>
+    <path d="M69 107C122 32 234 19 290 97C228 85 164 122 131 185C103 170 82 146 69 107Z" fill="#ffffff" fill-opacity=".58"/>
+    <path d="M114 274C154 228 218 214 285 251C241 260 204 291 176 344C150 328 128 307 114 274Z" fill="#ffe6ec" fill-opacity=".45"/>
+    <rect x="128" y="14" width="105" height="23" rx="11.5" fill="#0f1118"/>
+    <circle cx="222" cy="25" r="5" fill="#161923"/>
+    <path d="M272 57L315 100V29H233C235 55 246 79 272 104C281 90 282 72 272 57Z" fill="#ffffff" fill-opacity=".12"/>
+    <rect x="17" y="112" width="3" height="70" rx="1.5" fill="#e9c8c4"/>
+    <rect x="17" y="198" width="3" height="44" rx="1.5" fill="#e9c8c4"/>
+    <rect x="340" y="165" width="3" height="90" rx="1.5" fill="#e9c8c4"/>
+  </g>
+</svg>

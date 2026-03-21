@@ -1,0 +1,92 @@
+﻿[
+  {
+    "id": "iphone-15-pro",
+    "name": "iPhone 15 Pro",
+    "brand": "Apple",
+    "price": 119900,
+    "image": "iphone-15-pro",
+    "specs": { "ram": "8GB", "storage": "256GB", "camera": "48MP Triple", "battery": "3274mAh" },
+    "description": "A premium titanium iPhone built for speed, pro-level photography, and all-day performance. Ideal for creators and power users who want the smoothest iOS experience."
+  },
+  {
+    "id": "iphone-15",
+    "name": "iPhone 15",
+    "brand": "Apple",
+    "price": 79900,
+    "image": "iphone-15",
+    "specs": { "ram": "6GB", "storage": "128GB", "camera": "48MP Dual", "battery": "3349mAh" },
+    "description": "A perfectly balanced iPhone with a sharp display, excellent cameras, and dependable battery life. Great for everyday premium use."
+  },
+  {
+    "id": "galaxy-s24-ultra",
+    "name": "Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 129999,
+    "image": "galaxy-s24-ultra",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "200MP Quad", "battery": "5000mAh" },
+    "description": "Samsung's ultimate flagship with a bright, immersive display, pro zoom camera system, and powerhouse performance for gaming and productivity."
+  },
+  {
+    "id": "galaxy-z-fold5",
+    "name": "Galaxy Z Fold5",
+    "brand": "Samsung",
+    "price": 154999,
+    "image": "galaxy-z-fold5",
+    "specs": { "ram": "12GB", "storage": "512GB", "camera": "50MP Triple", "battery": "4400mAh" },
+    "description": "A premium foldable that turns into a mini tablet. Perfect for multitasking, streaming, and working on the go with a futuristic form factor."
+  },
+  {
+    "id": "oneplus-12",
+    "name": "OnePlus 12",
+    "brand": "OnePlus",
+    "price": 64999,
+    "image": "oneplus-12",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "50MP Triple", "battery": "5400mAh" },
+    "description": "Fast, fluid, and refined. A flagship that focuses on speed, smooth UI, rapid charging, and a camera system tuned for vibrant shots."
+  },
+  {
+    "id": "pixel-8-pro",
+    "name": "Pixel 8 Pro",
+    "brand": "Google",
+    "price": 106999,
+    "image": "pixel-8-pro",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "50MP Triple", "battery": "5050mAh" },
+    "description": "A clean Android flagship with top-tier computational photography, smart features, and smooth performance designed around everyday convenience."
+  },
+  {
+    "id": "xiaomi-14-ultra",
+    "name": "Xiaomi 14 Ultra",
+    "brand": "Xiaomi",
+    "price": 99999,
+    "image": "xiaomi-14-ultra",
+    "specs": { "ram": "16GB", "storage": "512GB", "camera": "50MP Quad", "battery": "5000mAh" },
+    "description": "A camera-first powerhouse with premium build, an ultra-bright display, and flagship hardware that delivers speed with style."
+  },
+  {
+    "id": "nothing-phone-2",
+    "name": "Nothing Phone (2)",
+    "brand": "Nothing",
+    "price": 44999,
+    "image": "nothing-phone-2",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "50MP Dual", "battery": "4700mAh" },
+    "description": "A distinctive design with smooth performance, a clean UI, and a premium feel. Built for users who like tech that looks different."
+  },
+  {
+    "id": "iqoo-12",
+    "name": "iQOO 12",
+    "brand": "iQOO",
+    "price": 52999,
+    "image": "iqoo-12",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "50MP Triple", "battery": "5000mAh" },
+    "description": "A performance-focused flagship tuned for gaming: ultra-fast chipset, high refresh display, and strong thermals for consistent FPS."
+  },
+  {
+    "id": "realme-gt-5-pro",
+    "name": "realme GT 5 Pro",
+    "brand": "realme",
+    "price": 57999,
+    "image": "realme-gt-5-pro",
+    "specs": { "ram": "12GB", "storage": "256GB", "camera": "50MP Triple", "battery": "5400mAh" },
+    "description": "Flagship speed with a bright display and fast charging. An excellent pick for users who want premium specs at a sharper price."
+  }
+]

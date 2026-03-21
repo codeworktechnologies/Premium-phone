@@ -1,0 +1,59 @@
+﻿@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+.dark {
+  color-scheme: dark;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-zinc-50 text-zinc-950 antialiased dark:bg-zinc-950 dark:text-zinc-100;
+}
+
+*::selection {
+  background: rgba(99, 102, 241, 0.35);
+}
+
+.container-px {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.glass {
+  @apply bg-white/70 backdrop-blur-xl ring-1 ring-black/10 dark:bg-white/5 dark:ring-white/10;
+}
+
+.btn {
+  @apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2 text-sm font-semibold transition;
+}
+
+.btn-primary {
+  @apply btn bg-indigo-500 text-white hover:bg-indigo-400 active:bg-indigo-600;
+}
+
+.btn-secondary {
+  @apply btn bg-black/5 text-zinc-950 hover:bg-black/10 active:bg-black/5 dark:bg-white/10 dark:text-white dark:hover:bg-white/15 dark:active:bg-white/5;
+}
+
+.btn-ghost {
+  @apply btn bg-transparent text-zinc-950/80 hover:bg-black/5 active:bg-black/10 dark:text-white/90 dark:hover:bg-white/10 dark:active:bg-white/5;
+}
+
+.chip {
+  @apply rounded-full px-3 py-1 text-xs font-semibold transition;
+}
+
+.chip-active {
+  @apply bg-indigo-500/15 text-indigo-700 ring-1 ring-indigo-400/25 dark:bg-indigo-500/20 dark:text-indigo-200 dark:ring-indigo-400/30;
+}
+
+.chip-idle {
+  @apply bg-black/5 text-zinc-700 ring-1 ring-black/10 hover:bg-black/10 dark:bg-white/5 dark:text-white/80 dark:ring-white/10 dark:hover:bg-white/10;
+}

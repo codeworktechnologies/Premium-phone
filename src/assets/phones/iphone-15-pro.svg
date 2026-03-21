@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="110" y1="80" x2="760" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171b2e"/>
+      <stop offset="1" stop-color="#090b15"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(642 146) rotate(136.9) scale(322.089 461.211)">
+      <stop stop-color="#8cc7ff"/>
+      <stop offset="1" stop-color="#8cc7ff" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wallpaper" x1="325" y1="120" x2="612" y2="578" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fdf4ff"/>
+      <stop offset="0.34" stop-color="#7288ff"/>
+      <stop offset="0.68" stop-color="#1a2351"/>
+      <stop offset="1" stop-color="#050816"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="289" y1="114" x2="623" y2="587" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d9dce4"/>
+      <stop offset="0.5" stop-color="#878d96"/>
+      <stop offset="1" stop-color="#ced2d8"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="44" fill="url(#bg)"/>
+  <circle cx="648" cy="155" r="240" fill="url(#glow)" opacity=".55"/>
+  <circle cx="221" cy="571" r="193" fill="#312454" opacity=".55"/>
+  <rect x="110" y="84" width="680" height="532" rx="40" fill="#ffffff" fill-opacity=".03" stroke="#ffffff" stroke-opacity=".08"/>
+  <ellipse cx="455" cy="591" rx="176" ry="29" fill="#000000" fill-opacity=".38"/>
+  <g transform="translate(248 94)">
+    <rect x="20" y="0" width="318" height="520" rx="46" fill="url(#frame)"/>
+    <rect x="32" y="12" width="294" height="496" rx="40" fill="#05070d"/>
+    <rect x="45" y="26" width="268" height="468" rx="34" fill="url(#wallpaper)"/>
+    <path d="M76 83C132 42 198 54 246 122C188 104 132 131 101 176C88 153 78 122 76 83Z" fill="#ffffff" fill-opacity=".58"/>
+    <path d="M87 301C144 251 231 257 276 337C232 324 178 338 141 378C112 359 96 338 87 301Z" fill="#c9f0ff" fill-opacity=".32"/>
+    <rect x="126" y="14" width="106" height="23" rx="11.5" fill="#0f1118"/>
+    <circle cx="220" cy="25" r="5" fill="#171a24"/>
+    <path d="M272 50L312 94V26H206C215 68 237 92 272 108C280 95 281 74 272 50Z" fill="#ffffff" fill-opacity=".1"/>
+    <rect x="17" y="111" width="3" height="70" rx="1.5" fill="#9da3ac"/>
+    <rect x="17" y="197" width="3" height="44" rx="1.5" fill="#9da3ac"/>
+    <rect x="338" y="165" width="3" height="90" rx="1.5" fill="#9da3ac"/>
+  </g>
+</svg>

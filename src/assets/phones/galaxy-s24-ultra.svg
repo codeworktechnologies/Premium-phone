@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="103" y1="77" x2="778" y2="611" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#181a22"/>
+      <stop offset="1" stop-color="#08090f"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(660 155) rotate(139.71) scale(314.691 459.739)">
+      <stop stop-color="#ffb86e"/>
+      <stop offset="1" stop-color="#ffb86e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="wallpaper" x1="287" y1="114" x2="611" y2="595" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff1c9"/>
+      <stop offset="0.26" stop-color="#f59e0b"/>
+      <stop offset="0.62" stop-color="#c2410c"/>
+      <stop offset="1" stop-color="#290b09"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="270" y1="92" x2="620" y2="605" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7f735f"/>
+      <stop offset="0.47" stop-color="#403629"/>
+      <stop offset="1" stop-color="#8e846f"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="44" fill="url(#bg)"/>
+  <circle cx="662" cy="155" r="244" fill="url(#glow)" opacity=".7"/>
+  <circle cx="227" cy="546" r="178" fill="#492316" opacity=".52"/>
+  <rect x="110" y="84" width="680" height="532" rx="40" fill="#ffffff" fill-opacity=".03" stroke="#ffffff" stroke-opacity=".08"/>
+  <ellipse cx="450" cy="591" rx="185" ry="29" fill="#000000" fill-opacity=".38"/>
+  <g transform="translate(245 86)">
+    <rect x="20" y="0" width="318" height="528" rx="28" fill="url(#frame)"/>
+    <rect x="31" y="11" width="296" height="506" rx="24" fill="#040507"/>
+    <rect x="43" y="23" width="272" height="482" rx="20" fill="url(#wallpaper)"/>
+    <path d="M73 84C123 43 186 46 243 118C197 115 154 141 117 196C91 167 78 132 73 84Z" fill="#fff0d3" fill-opacity=".7"/>
+    <path d="M78 296C142 245 228 244 284 325C240 323 188 350 151 401C115 382 92 348 78 296Z" fill="#ffd7a0" fill-opacity=".28"/>
+    <circle cx="179" cy="24" r="5" fill="#20242d"/>
+    <rect x="16" y="120" width="4" height="76" rx="2" fill="#8f866f"/>
+    <rect x="338" y="164" width="4" height="100" rx="2" fill="#8f866f"/>
+    <rect x="300" y="448" width="10" height="52" rx="5" fill="#1f1a14"/>
+    <rect x="302" y="451" width="6" height="46" rx="3" fill="#f59e0b"/>
+  </g>
+</svg>

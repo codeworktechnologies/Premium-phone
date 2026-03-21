@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="105" y1="86" x2="774" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#171921"/>
+      <stop offset="1" stop-color="#090b12"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(650 160) rotate(137.58) scale(320.261 443.611)">
+      <stop stop-color="#78f0dd"/>
+      <stop offset="1" stop-color="#78f0dd" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="body" x1="269" y1="96" x2="621" y2="599" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9ea8ae"/>
+      <stop offset="0.47" stop-color="#7b858d"/>
+      <stop offset="1" stop-color="#dbe1e7"/>
+    </linearGradient>
+    <linearGradient id="wallpaper" x1="304" y1="114" x2="614" y2="595" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4fffe"/>
+      <stop offset="0.34" stop-color="#5ae0ca"/>
+      <stop offset="0.72" stop-color="#1f4551"/>
+      <stop offset="1" stop-color="#071217"/>
+    </linearGradient>
+  </defs>
+  <rect width="900" height="700" rx="44" fill="url(#bg)"/>
+  <circle cx="650" cy="160" r="245" fill="url(#glow)" opacity=".72"/>
+  <circle cx="228" cy="541" r="177" fill="#143436" opacity=".42"/>
+  <rect x="110" y="84" width="680" height="532" rx="40" fill="#ffffff" fill-opacity=".03" stroke="#ffffff" stroke-opacity=".08"/>
+  <ellipse cx="450" cy="591" rx="176" ry="29" fill="#000000" fill-opacity=".36"/>
+  <g transform="translate(244 88)">
+    <rect x="20" y="0" width="320" height="524" rx="44" fill="url(#body)"/>
+    <rect x="32" y="12" width="296" height="500" rx="38" fill="#06080b"/>
+    <rect x="46" y="26" width="268" height="472" rx="31" fill="url(#wallpaper)"/>
+    <path d="M81 93C132 49 205 55 260 133C205 122 152 145 117 191C95 166 83 134 81 93Z" fill="#f7ffff" fill-opacity=".6"/>
+    <path d="M82 309C142 265 219 257 282 334C235 332 187 352 149 397C113 376 92 348 82 309Z" fill="#c9fff7" fill-opacity=".26"/>
+    <circle cx="180" cy="27" r="5" fill="#1e232a"/>
+    <rect x="50" y="68" width="260" height="38" rx="19" fill="#3a434c"/>
+    <circle cx="92" cy="87" r="13" fill="#0e1115"/>
+    <circle cx="132" cy="87" r="13" fill="#0e1115"/>
+    <circle cx="172" cy="87" r="13" fill="#0e1115"/>
+    <circle cx="92" cy="87" r="8" fill="#2b3138"/>
+    <circle cx="132" cy="87" r="8" fill="#2b3138"/>
+    <circle cx="172" cy="87" r="8" fill="#2b3138"/>
+    <rect x="18" y="118" width="4" height="72" rx="2" fill="#b6bec6"/>
+    <rect x="340" y="165" width="4" height="94" rx="2" fill="#b6bec6"/>
+  </g>
+</svg>
