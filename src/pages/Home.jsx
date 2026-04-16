@@ -64,7 +64,7 @@ export default function Home() {
 
               <h1 className="text-balance text-4xl font-black tracking-tight sm:text-5xl lg:text-6xl">
                 Buy Latest Smartphones
-                <span className="block bg-gradient-to-r from-indigo-300 via-white to-emerald-200 bg-clip-text text-transparent">
+                <span className="block bg-gradient-to-r from-indigo-400 to-emerald-300 bg-clip-text text-transparent">
                   with a premium shopping experience.
                 </span>
               </h1>
@@ -232,11 +232,3 @@ export default function Home() {
     </motion.div>
   );
 }
-
-
-
-
-
-
-
-
